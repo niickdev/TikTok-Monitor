@@ -2,7 +2,7 @@ name: Check TikTok Status
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Runs every 10 minutes automatically
+    - cron: '*/5 * * * *'  # Runs every 10 minutes automatically
   workflow_dispatch:      # Allows manual click to test
 
 permissions:
